@@ -2,7 +2,7 @@
 
 ## ⚠️ ETHICAL AND EDUCATIONAL USE ONLY ⚠️
 
-<img width="995" height="833" alt="image" src="https://github.com/user-attachments/assets/415645a0-69eb-4fe6-b028-a6885b227b31" />
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/415645a0-69eb-4fe6-b028-a6885b227b31" />
 
 
 This project implements an advanced endpoint activity monitor in Python. It is designed **solely for educational purposes** to understand the mechanisms of endpoint security, forensic data collection, and threat analysis. It captures various user and system interactions, logging them in a structured, encrypted format.
@@ -91,3 +91,4 @@ For command-line decryption, use the `monitor_core.py` script with the `--decryp
 ```bash
 
 python monitor_core.py --decrypt --log_file logs/activity_YYYY-MM-DD.jsonl --key_file encryption_key.bin --output_file decrypted_activity_YYYY-MM-DD.jsonl
+
